@@ -31,6 +31,10 @@
     <a href="#">Ajuda</a>
   </nav>
 </header>
+<!-- Banner de Novidades -->
+<div id="banner-novidades">
+  <p id="mensagem-novidade">Confira nossas promoções imperdíveis!</p>
+</div>
 
 
 
@@ -45,23 +49,6 @@
   <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
   <button onclick="finalizarCompra()">Finalizar Compra</button>
 </div>
-<a href="https://www.instagram.com/guiado" target="_blank" rel="noopener noreferrer">
-  <i class="fab fa-instagram"></i> Siga a @guiado
-</a>
-<style>
-  a {
-    text-decoration: none;
-    color: white;
-    background-color: #E1306C; /* Cor do Instagram */
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-family: sans-serif;
-  }
-
-  i {
-    margin-right: 8px;
-  }
-</style>
 
 
   <footer>
@@ -75,5 +62,22 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+  const mensagens = [
+    "🆕 Chegaram novos acessórios exclusivos!",
+    "🔥 Promoções de até 50% só essa semana!",
+    "🚚 Frete grátis para compras acima de R$150!",
+    "🎁 Ganhe brindes em pedidos acima de R$200!"
+  ];
+
+  let indice = 0;
+  const elementoMensagem = document.getElementById("mensagem-novidade");
+
+  setInterval(() => {
+    indice = (indice + 1) % mensagens.length;
+    elementoMensagem.textContent = mensagens[indice];
+  }, 4000); // Troca a cada 4 segundos
+</script>
+
 </body>
 </html>
