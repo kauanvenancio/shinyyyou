@@ -188,3 +188,33 @@ header {
 .carrinho button:hover {
   background-color: #c2185b;
 }
+#banner-novidades {
+  background-color: #f8d7da;
+  color: #721c24;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+#banner-novidades {
+  background-color: #f8d7da;
+  color: #721c24;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
