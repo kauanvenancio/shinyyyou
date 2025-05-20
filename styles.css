@@ -221,7 +221,7 @@ header {
 
 body::before {
   content: "";
-  background-image: url('https://photos.app.goo.gl/oJkwVX2BuuCvkLJe6'); /* Substitua pela sua logo */
+  background-image: url('https://files.fm/u/43su27zx9b'); /* Substitua pela sua logo */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px; /* ajuste o tamanho da logo */
