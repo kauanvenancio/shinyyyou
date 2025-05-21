@@ -133,7 +133,7 @@ header {
   font-size: 1.5rem;
   color: white;
   cursor: pointer;
-  position: relative;
+  position: right;
 }
 
 #contador-carrinho {
